@@ -13,7 +13,7 @@ int WINAPI WinMain(HINSTANCE, HINSTANCE, LPSTR, int)
 	// 画面モードのセット
 	ChangeWindowMode(TRUE);
 	SetGraphMode(1920, 1080, 16);
-	//SetWindowSizeExtendRate(0.5, 0.5);
+	SetWindowSizeExtendRate(0.5, 0.5);
 
 	//描画先を裏画面に変更する。
 	SetDrawScreen(DX_SCREEN_BACK);
