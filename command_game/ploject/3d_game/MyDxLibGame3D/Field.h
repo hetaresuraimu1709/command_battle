@@ -4,7 +4,8 @@
 
 class Field
 {
-
+	Field();
+	~Field();
 };
 
 #endif//_FIELD_H_

@@ -20,6 +20,7 @@
 #include "Memory.h"
 #include "Npc.h"
 #include "Window.h"
+#include "Field.h"
 
 void Turn_Around(float &now_dir, float max_dir, float speed_dir, bool &turn_flag);
 Chara Status_Get(std::string chara_name, char *file_name, Vector3 f_pos, Vector3 b_pos, float hp, float mp, float pow, float def, float m_pow, float m_res, float ski, float spd, bool ally_or_enemy_flag);
