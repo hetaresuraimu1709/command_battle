@@ -30,3 +30,12 @@
 *.exe
 *.out
 *.app
+*.ipch
+*.db
+*.suo
+*.efkproj
+*.vcxproj
+*.filters
+*.user
+*.pdb
+*.ilk
